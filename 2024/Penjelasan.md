@@ -96,7 +96,7 @@ int main() {
   
                 if (cek(s)) {
                     count++;
-    
+  
                     cout << s << endl;
                 }
             }
@@ -637,9 +637,7 @@ Total vektor yang berbeda = 4 path * 81 kombinasi per path = 324
 
 **Jawaban: 324**
 
-# Soal 35: Kembalian dari `dingin(10,7)`
-
-## Source Code
+# Nomor 35
 
 ```cpp
 #include <iostream>
@@ -781,7 +779,7 @@ int main() {
         for (int X = 1; X <= sum_digits_77; X++) {
             // Hitung dingin(X, Y)
             int result = dingin(X, Y);
-    
+  
             // Jika hasil = 77, tambahkan ke daftar pasangan valid
             if (result == 77) {
                 valid_pairs.push_back({X, Y});
